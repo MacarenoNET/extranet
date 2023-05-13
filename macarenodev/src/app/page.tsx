@@ -1,10 +1,11 @@
 import Image from 'next/image'
-import styles from './page.module.css'
+
+import Navigation from '../component/navegation/navigation';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <h1>jonono</h1>
+    <main>
+      <Navigation headertransparent="header--transparent" color="color--black" logo="../../public/assets/images/logo/logo.png" />
     </main>
   )
 }
